@@ -1,0 +1,30 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.fontfor{
+  font-family: "Arsenal SC", sans-serif;
+}
+.bodyindex{
+  background: url('./bg1.png');
+  background-size: cover; 
+}
+.navbar-nav {
+  margin-left: auto; 
+}
+.nav-item {
+  margin-right: 15px;
+}
+.nav-i:hover{
+  text-decoration: underline;
+}
+.backhome:hover{
+    text-decoration: underline;
+    color: white;
+}
+@media (max-width: 1000px) {
+  .bodyindex {
+      background-repeat: no-repeat;
+      height: 100vh;
+  }
+}
